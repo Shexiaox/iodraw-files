@@ -84,22 +84,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-19" value="TEXT" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="374" y="1649" width="97" height="48" as="geometry" />
+          <mxGeometry x="364" y="1759" width="97" height="48" as="geometry" />
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-20" value="TEXT ENCODER" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="529" y="1649" width="169" height="48" as="geometry" />
+          <mxGeometry x="519" y="1759" width="169" height="48" as="geometry" />
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-21" value="IMAGE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1747" width="105" height="48" as="geometry" />
+          <mxGeometry x="360" y="1857" width="105" height="48" as="geometry" />
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-22" value="IMAGE ENCODER" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="525" y="1747" width="177" height="48" as="geometry" />
+          <mxGeometry x="515" y="1857" width="177" height="48" as="geometry" />
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-23" value="IMAGE-TEXT FUSION LAYERS&#xa;(variable)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="751" y="1640" width="259" height="66" as="geometry" />
+          <mxGeometry x="741" y="1750" width="259" height="66" as="geometry" />
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-24" value="LLM Decoder" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1659" width="152" height="48" as="geometry" />
+          <mxGeometry x="1050" y="1769" width="152" height="48" as="geometry" />
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="NijSMwpKvnBIJSfpPlE1-19" target="NijSMwpKvnBIJSfpPlE1-20">
           <mxGeometry relative="1" as="geometry">
@@ -114,29 +114,29 @@
         <mxCell id="NijSMwpKvnBIJSfpPlE1-27" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="NijSMwpKvnBIJSfpPlE1-20" target="NijSMwpKvnBIJSfpPlE1-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="726" y="1649" />
+              <mxPoint x="716" y="1759" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.12;entryX=0.24;entryY=1;rounded=0;" edge="1" parent="1" source="NijSMwpKvnBIJSfpPlE1-22" target="NijSMwpKvnBIJSfpPlE1-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="726" y="1747" />
+              <mxPoint x="716" y="1857" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.34;rounded=0;" edge="1" parent="1" source="NijSMwpKvnBIJSfpPlE1-23" target="NijSMwpKvnBIJSfpPlE1-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1035" y="1673" />
+              <mxPoint x="1025" y="1783" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NijSMwpKvnBIJSfpPlE1-30" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.63;exitY=1;entryX=0.35;entryY=1;rounded=0;" edge="1" parent="1" source="NijSMwpKvnBIJSfpPlE1-20" target="NijSMwpKvnBIJSfpPlE1-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="726" y="1791" />
-              <mxPoint x="1035" y="1791" />
+              <mxPoint x="716" y="1901" />
+              <mxPoint x="1025" y="1901" />
             </Array>
           </mxGeometry>
         </mxCell>
